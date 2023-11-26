@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div>
+                <h1>To Do aap</h1>
+                <input id="inputbx" type="text" placeholder="write here.....">
+                <button onclick="addTodo()" class="btn">AD TODO</button>
+                <button onclick="dleatall()" class="dlt_all">DLT ALL</button>
+            </div>
+            <ol id="list" class="stlist">
+
+            </ol>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
